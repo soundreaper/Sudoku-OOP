@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Sudoku {
     public static final int SIZE = 9;
@@ -110,8 +109,8 @@ public class Sudoku {
     }
 
     private void setPuzzleHoles() {
-        int numHoles = 1; //Use this for a sudoku puzzle with only one hole to check if the compare method works quickly.
-        //int numHoles = (int)((Math.random() * (36 - 25)) + 25);
+        //int numHoles = 1; //Use this for a sudoku puzzle with only one hole to check if the compare method works quickly.
+        int numHoles = (int)((Math.random() * (36 - 25)) + 25);
 
         for (int k = 1; k <= numHoles; k++) {
             int randRow = (int)((Math.random() * (9 - 1)) + 1);
