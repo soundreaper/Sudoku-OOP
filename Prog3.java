@@ -2,15 +2,6 @@
 // Subal Pant
 // 02/14/2018
 // System: Mac OS X - High Sierra, Compiler: IntelliJ IDEA
-/*
-    This program is a game that allows the user to play Sudoku. It fills a two-dimensional array
-    with numbers between 1 to 9 and then randomizes their locations. It then creates random blanks in array
-    so that the use can "solve" the puzzle. Once the user places all the missing numbers in the correct spot,
-    the game will finish. This version of the program has pushed the Sudoku game logic into a Sudoku class while
-    the main driver program is separate from the the class. It allows for cleaner code and for the entire game to be
-    contained inside a separate file should I ever want to use it again.
- */
-
 
 import java.util.Scanner;
 
